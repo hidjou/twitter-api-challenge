@@ -1,0 +1,59 @@
+// Make input prepend text unselectable
+.tw-prepend {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.tw-shadow {
+    transition: all 0.25s;
+
+    &:hover,
+    &:focus {
+        -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+        -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+        box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+    }
+}
+
+.tw-wide-button {
+    width: 150px;
+}
+
+.twitter-feed__profile {
+    // Half the avatar height
+    .card .card-body {
+        padding-top: 50px;
+    }
+    // Profile image
+    .avatar {
+        // Rouded circular avatar with thin blue border
+        border-radius: 50%;
+        border: 1px solid $twitter-blue;
+        // Drag up and to the right
+        position: absolute;
+        width: 100px;
+        top: -50px;
+        left: 5%;
+    }
+    // Cover image
+    .cover {
+        overflow: hidden;
+        height: 200px;
+
+        img {
+            height: 100%;
+        }
+    }
+}
+
+.twitter-feed__tweets {
+}
+
+btn.btn-suggestion:hover {
+    color: #007bff;
+    text-decoration: none;
+}

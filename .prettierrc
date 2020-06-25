@@ -1,0 +1,22 @@
+{
+    "trailingComma": "es5",
+    "tabWidth": 4,
+    "semi": false,
+    "singleQuote": true,
+    "arrowParens": "always",
+    "overrides": [
+        {
+            "files": ["*.css", "*.scss"],
+            "options": {
+                "singleQuote": false,
+                "tabWidth": 4
+            }
+        },
+        {
+            "files": ["*.html", "*.blade.php"],
+            "options": {
+                "tabWidth": 4
+            }
+        }
+    ]
+}
